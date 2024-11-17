@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسه</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+<body>
+    <section class="sub-header">
+        <nav class="icon">
+            <a href="index.html"><img src="assets/eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">
+                        close
+                        </span>
+                <ul>
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="about.html">درباره ما</a></li>
+                    <li><a href="course.html">دوره ها</a></li>
+                    <li><a href="blog.html">اخبار</a></li>
+                    <li><a href="contect.html">ارتباط با ما</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showMenu()">
+                menu
+                </span>
+        </nav>
+         <h1>اخبار</h1>
+ </section>
+ <section class="campus">
+    <h1>اخبار 1403</h1>
+    <p>در اینجا به برخی اخبار مدرسه میپردازیم</p>
+    <div class="responsive">
+        <div class="gallery">
+            <img src="assets/eduford_img/a.jpeg"  width="600" height="400">
+          </a>
+          <div class="desc">افتتاح کافه تریا در مدرسه</div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+            <img src="assets/eduford_img/d.jpg"  width="600" height="400">
+          </a>
+          <div class="desc">راهپیمایی 13 آبان</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+            <img src="assets/eduford_img/b.jpg"  width="600" height="400">
+          </a>
+          <div class="desc">حضور وزیر آموزش پرورش کشور</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+            <img src="assets/eduford_img/c.jpg"  width="600" height="400">
+          </a>
+          <div class="desc">برگزاری جشن مازندران</div>
+        </div>
+      </div>
+<div class="clearfix"></div>
+  </section>
+
+
+
+
+
+<section class="footer">
+    <h3>ارتباط با ما</h3>
+    <p>ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده <br>از طراحان گرافیک است.</p>
+    <div>
+        <span class="material-symbols-outlined">
+            groups
+            </span>
+            <h4>شماره تماس:011-52226061</h4>
+            <h4>ایمیل:info@gmail.com</h4>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!------JAVASCRIPT CODE ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</section>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسه</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+<body>
+    <section class="sub-header">
+        <nav class="icon">
+            <a href="index.html"><img src="assets/eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <span class="material-symbols-outlined" onclick="hideMenu()">
+                        close
+                        </span>
+                <ul>
+                    <li><a href="">خانه</a></li>
+                    <li><a href="">درباره ما</a></li>
+                    <li><a href="">دوره ها</a></li>
+                    <li><a href="">اخبار</a></li>
+                    <li><a href="">ارتباط با ما</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined" onclick="showMenu()">
+                menu
+                </span>
+        </nav>
+         <h1>فردا این بخشو درست میکنم</h1>
+ </section>
+
+<section class="footer">
+    <h3>ارتباط با ما</h3>
+    <p>ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده <br>از طراحان گرافیک است.</p>
+    <div>
+        <span class="material-symbols-outlined">
+            groups
+            </span>
+            <h4>شماره تماس:011-52226061</h4>
+            <h4>ایمیل:info@gmail.com</h4>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!------JAVASCRIPT CODE ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</section>
+</body>
+</html>
